@@ -1,0 +1,26 @@
+package br.com.msr.logistica.controller;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import br.com.msr.logistica.model.Cliente;
+import br.com.msr.logistica.repository.ClienteRepository;
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor
+@RestController
+public class ClienteController {
+
+	private ClienteRepository clienteRepository;
+	
+	@GetMapping("/clientes")
+	public List<Cliente> lista(){			
+		return clienteRepository.findAll();
+	}
+
+}
