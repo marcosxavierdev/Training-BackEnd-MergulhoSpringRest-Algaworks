@@ -252,3 +252,93 @@ org.eclipse.swt.SWTException: Widget is disposed
 
 !ENTRY org.eclipse.ui 2 2 2021-08-22 11:15:16.011
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:49:02.426
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:49:02.427
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2168e7c7[org.springframework.tooling.boot.ls:1.27.0.202108151936(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:49:02.433
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:49:02.470
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:49:07.802
+!MESSAGE Boot LS startup time from start to initialized: 5357ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:49:08.015
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HVstJzmdisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:49:08.019
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:49:08.023
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:49:08.025
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:49:08.027
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:49:08.028
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HVstJzmd => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:49:08.040
+!MESSAGE classpath=67 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:49:08.045
+!MESSAGE buffering callback sts4.classpath.HVstJzmd msr-logistica-api false 67
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:49:08.046
+!MESSAGE executing callback sts4.classpath.HVstJzmd 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:49:08.924
+!MESSAGE executing callback sts4.classpath.HVstJzmd SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:52:23.835
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:52:23.842
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:52:23.849
+!MESSAGE buffering callback sts4.classpath.HVstJzmd msr-logistica-api false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:52:23.849
+!MESSAGE executing callback sts4.classpath.HVstJzmd 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:52:23.906
+!MESSAGE executing callback sts4.classpath.HVstJzmd SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:52:25.907
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:52:25.917
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:52:25.925
+!MESSAGE buffering callback sts4.classpath.HVstJzmd msr-logistica-api false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:52:25.926
+!MESSAGE executing callback sts4.classpath.HVstJzmd 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:52:26.450
+!MESSAGE executing callback sts4.classpath.HVstJzmd SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:52:26.456
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:52:26.469
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:52:26.477
+!MESSAGE buffering callback sts4.classpath.HVstJzmd msr-logistica-api false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:52:26.478
+!MESSAGE executing callback sts4.classpath.HVstJzmd 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-22 11:52:26.506
+!MESSAGE executing callback sts4.classpath.HVstJzmd SUCCESS [done]
