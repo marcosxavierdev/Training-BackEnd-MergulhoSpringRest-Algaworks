@@ -22,5 +22,6 @@ public class ClienteController {
 	public List<Cliente> lista(){			
 		return clienteRepository.findAll();
 	}
+	
 
 }

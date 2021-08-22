@@ -9,18 +9,16 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.msr.logistica.model.Cliente;
-import br.com.msr.logistica.repository.ClienteRepository;
-import lombok.AllArgsConstructor;
 
-@AllArgsConstructor
 @RestController
 public class ClienteController {
-
-	private ClienteRepository clienteRepository;
+	
+	@PersistenceContext
+	private EntityManager entityManager;
 	
 	@GetMapping("/clientes")
 	public List<Cliente> lista(){			
-		return clienteRepository.findAll();
+		return entityManager.createQuery("from Cliente",Cliente.class).getResultList();
 	}
 
 }
