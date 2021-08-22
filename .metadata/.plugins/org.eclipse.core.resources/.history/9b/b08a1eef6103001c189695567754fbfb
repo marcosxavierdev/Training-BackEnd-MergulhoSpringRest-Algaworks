@@ -1,5 +1,6 @@
 package br.com.msr.logistica.controller;
 
+import java.util.Arrays;
 import java.util.List;
 
 import javax.persistence.EntityManager;
@@ -18,7 +19,7 @@ public class ClienteController {
 	
 	@GetMapping("/clientes")
 	public List<Cliente> lista(){			
-		return entityManager.createQuery("from Cliente",Cliente.class).getResultList();
+		return entityManager.createQuery("from cliente",Cliente.class).getResultList();
 	}
 
 }
