@@ -317,3 +317,27 @@
 2021-08-22 13:14:26,744 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-08-22 13:14:26,744 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2021-08-22 13:14:26,744 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\mxmar\Desktop\WORKSPACE - MSR\msr-logistica-api\src\test\resources
+2021-08-22 13:41:11,826 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-22 13:41:11,826 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-22 13:41:11,828 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-22 13:41:11,865 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-08-22 13:41:11,867 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-22 13:41:11,867 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-22 13:41:11,867 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\mxmar\Desktop\WORKSPACE - MSR\msr-logistica-api\src\test\resources
+2021-08-22 13:46:50,343 [Worker-85: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-08-22 13:46:51,363 [Worker-85: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.msr.logistica:msr-logistica-api:0.0.1-SNAPSHOT @ C:\Users\mxmar\Desktop\WORKSPACE - MSR\msr-logistica-api\pom.xml.
+2021-08-22 13:46:53,246 [Worker-85: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /msr-logistica-api/src/main/java
+2021-08-22 13:46:53,246 [Worker-85: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /msr-logistica-api/src/main/resources
+2021-08-22 13:46:53,247 [Worker-85: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /msr-logistica-api/src/main/resources
+2021-08-22 13:46:53,247 [Worker-85: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /msr-logistica-api/src/test/java
+2021-08-22 13:46:54,211 [Worker-85: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2021-08-22 13:46:55,204 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-22 13:46:55,205 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-22 13:46:55,206 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-08-22 13:46:55,250 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-08-22 13:46:55,267 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-22 13:46:55,267 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-22 13:46:55,267 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\mxmar\Desktop\WORKSPACE - MSR\msr-logistica-api\src\test\resources
+2021-08-22 14:02:08,066 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-08-22 14:02:08,066 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-08-22 14:02:08,068 [Worker-106: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource

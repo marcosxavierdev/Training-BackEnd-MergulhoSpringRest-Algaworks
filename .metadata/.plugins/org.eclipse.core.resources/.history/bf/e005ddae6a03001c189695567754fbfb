@@ -2,8 +2,6 @@ package br.com.msr.logistica.controller;
 
 import java.util.List;
 
-import javax.validation.Valid;
-
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -41,12 +39,12 @@ public class ClienteController {
 	
 	@PostMapping
 	@ResponseStatus(HttpStatus.CREATED)
-	public Cliente adiciona(@Valid @RequestBody Cliente cliente) {
+	public Cliente adiciona(@RequestBody Cliente cliente) {
 		return clienteRepository.save(cliente);
 	}
 	
 	@PutMapping("/{clienteId}")
-	public ResponseEntity<Cliente> atualiza(@Valid @PathVariable Long clienteId, @RequestBody Cliente cliente){
+	public ResponseEntity<Cliente> atualiza(@PathVariable Long clienteId, @RequestBody Cliente cliente){
 		if(!clienteRepository.existsById(clienteId)) {
 			return ResponseEntity.notFound().build();
 		}
