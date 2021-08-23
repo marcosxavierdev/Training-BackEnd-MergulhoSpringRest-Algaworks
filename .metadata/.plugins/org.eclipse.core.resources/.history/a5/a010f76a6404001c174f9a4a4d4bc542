@@ -1,7 +1,6 @@
 package br.com.msr.logistica.api.exceptionHandler;
 
 import java.time.LocalDateTime;
-import java.time.OffsetDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -42,7 +41,7 @@ public class ApiExceptionHandler extends ResponseEntityExceptionHandler {
 		
 		Problema problema = new Problema();
 		problema.setStatus(status.value());
-		problema.setDataHora(OffsetDateTime.now());
+		problema.setDataHora(LocalDateTime.now());
 		problema.setTitulo("um ou mais campos estão invalidos, faça o preenchimento correto e tente novamente");
 		problema.setCampos(campos);
 		
@@ -56,7 +55,7 @@ public class ApiExceptionHandler extends ResponseEntityExceptionHandler {
 		
 		Problema problema = new Problema();
 		problema.setStatus(status.value());
-		problema.setDataHora(OffsetDateTime.now());
+		problema.setDataHora(LocalDateTime.now());
 		problema.setTitulo(ex.getMessage());
 	
 		return handleExceptionInternal(ex, problema, new HttpHeaders(), status, request);

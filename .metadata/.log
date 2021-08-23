@@ -1458,3 +1458,57 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 19:47:15.092
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ocVgHQQo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 19:47:15.093
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ocVgHQQo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 19:47:15.094
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 19:47:15.095
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ocVgHQQo => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 19:47:23.803
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 19:47:23.804
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@178bf427[org.springframework.tooling.boot.ls:1.27.0.202108151936(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 19:47:23.805
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 19:47:27.485
+!MESSAGE Boot LS startup time from start to initialized: 3677ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 19:47:27.629
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.hbgDwyFtisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 19:47:27.630
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 19:47:27.631
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 19:47:27.632
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 19:47:27.633
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 19:47:27.634
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.hbgDwyFt => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 19:47:27.669
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 19:47:27.677
+!MESSAGE buffering callback sts4.classpath.hbgDwyFt msr-logistica-api false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 19:47:27.678
+!MESSAGE executing callback sts4.classpath.hbgDwyFt 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-23 19:47:28.363
+!MESSAGE executing callback sts4.classpath.hbgDwyFt SUCCESS [done]
