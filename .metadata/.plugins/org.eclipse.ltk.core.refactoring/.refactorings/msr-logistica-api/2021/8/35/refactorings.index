@@ -2,3 +2,8 @@
 1629646064831	Delete element
 1629647011844	Rename resource 'renomeia-coluna-telefone'
 1629654554787	Rename type 'Problem'
+1629657189997	Delete element
+1629657326776	Rename package 'br.com.msr.logistica.controller'
+1629657342336	Rename package 'br.com.msr.logistica.exceptionHandler'
+1629657368442	Rename package 'br.com.msr.logistica.model'
+1629657380960	Rename package 'br.com.msr.logistica.repository'
