@@ -31,7 +31,7 @@ public class EntregaController {
 	@PostMapping
 	@ResponseStatus(HttpStatus.CREATED)
 	public Entrega solicitar (@Valid @RequestBody Entrega entrega) {
-		return solicitacaoEntregaService.solicitar(entrega);
+		return solicitacaoEntregaService.solicita(entrega);
 	}
 	
 	@GetMapping

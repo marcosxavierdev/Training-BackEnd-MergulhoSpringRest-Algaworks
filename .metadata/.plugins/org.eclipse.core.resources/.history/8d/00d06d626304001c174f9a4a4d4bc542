@@ -14,12 +14,12 @@ public class CatalogoClienteService {
 	
 	private ClienteRepository clienteRepository;
 	
-	public Cliente buscar(Long clienteId) {
+	public Cliente busca(Long clienteId) {
 		return clienteRepository.findById(clienteId)
 				.orElseThrow(() -> new NegocioException("Cliente não encontrado"));
 	}
 	@Transactional
-	public Cliente salvar(Cliente cliente) {
+	public Cliente salva(Cliente cliente) {
 		boolean emailEmUso = clienteRepository.findByEmail(cliente.getEmail())
 				.stream()
 				.anyMatch(clienteExistente -> !clienteExistente.equals(cliente));
@@ -30,7 +30,7 @@ public class CatalogoClienteService {
 	}
 	
 	@Transactional
-	public void excluir (Long ClienteId) {
+	public void exclui (Long ClienteId) {
 		clienteRepository.deleteById(ClienteId);
 	}
 

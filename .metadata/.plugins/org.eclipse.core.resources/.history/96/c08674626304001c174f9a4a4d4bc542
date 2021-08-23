@@ -21,8 +21,8 @@ public class SolicitacaoEntregaService {
 	private EntregaRepository entregaRepository;
 	
 	@Transactional
-	public Entrega solicitar (Entrega entrega) {
-		Cliente cliente = catalogoClienteService.buscar(entrega.getCliente().getId());
+	public Entrega solicita (Entrega entrega) {
+		Cliente cliente = catalogoClienteService.busca(entrega.getCliente().getId());
 
 		entrega.setCliente(cliente);
 		entrega.setStatus(StatusEntrega.PENDENTE);

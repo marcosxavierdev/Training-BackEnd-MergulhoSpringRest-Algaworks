@@ -22,7 +22,7 @@ public class SolicitacaoEntregaService {
 	
 	@Transactional
 	public Entrega solicitar (Entrega entrega) {
-		Cliente cliente = catalogoClienteService.buscar(entrega.getCliente().getId());
+		Cliente cliente = catalogoClienteService.busca(entrega.getCliente().getId());
 
 		entrega.setCliente(cliente);
 		entrega.setStatus(StatusEntrega.PENDENTE);
