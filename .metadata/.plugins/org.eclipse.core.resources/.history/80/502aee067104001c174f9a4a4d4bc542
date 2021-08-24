@@ -1,0 +1,5 @@
+package br.com.msr.logistica.api.model.form;
+
+public class DestinatarioForm {
+
+}
