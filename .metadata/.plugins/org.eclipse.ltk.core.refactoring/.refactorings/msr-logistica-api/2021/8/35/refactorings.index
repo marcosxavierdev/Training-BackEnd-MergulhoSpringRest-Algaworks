@@ -15,3 +15,4 @@
 1629764066674	Rename type 'EntregaInput'
 1629764109572	Rename package 'br.com.msr.logistica.api.model.input'
 1629764125149	Rename package 'br.com.msr.logistica.api.model.output'
+1629847675923	Rename resource 'cria-tabela-ocorrencia.sql'

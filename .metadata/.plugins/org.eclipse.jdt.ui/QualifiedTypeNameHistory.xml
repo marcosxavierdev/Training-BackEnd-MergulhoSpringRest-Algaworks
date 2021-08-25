@@ -5,11 +5,9 @@
     <fullyQualifiedTypeName name="javax.persistence.PersistenceContext"/>
     <fullyQualifiedTypeName name="br.com.msr.logistica.repository.ClienteRepository"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
-    <fullyQualifiedTypeName name="javax.validation.constraints.NotBlank"/>
     <fullyQualifiedTypeName name="javax.validation.constraints.Email"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ControllerAdvice"/>
     <fullyQualifiedTypeName name="org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="br.com.msr.logistica.exceptionHandler.Problema.Campo"/>
     <fullyQualifiedTypeName name="org.springframework.context.i18n.LocaleContextHolder"/>
     <fullyQualifiedTypeName name="java.util.Optional"/>
@@ -29,11 +27,9 @@
     <fullyQualifiedTypeName name="javax.persistence.EnumType"/>
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
-    <fullyQualifiedTypeName name="br.com.msr.logistica.domain.repository.EntregaRepository"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
     <fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
     <fullyQualifiedTypeName name="br.com.msr.logistica.domain.model.StatusEntrega"/>
-    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
     <fullyQualifiedTypeName name="br.com.msr.logistica.domain.service.SolicitacaoEntregaService"/>
     <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
     <fullyQualifiedTypeName name="br.com.msr.logistica.domain.repository.ClienteRepository"/>
@@ -41,4 +37,16 @@
     <fullyQualifiedTypeName name="br.com.msr.logistica.domain.service.CatalogoClienteService"/>
     <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonProperty"/>
     <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonProperty.Access"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.ser.std.StdKeySerializers.Default"/>
+    <fullyQualifiedTypeName name="br.com.msr.logistica.domain.ValidationGroups"/>
+    <fullyQualifiedTypeName name="br.com.msr.logistica.domain.ValidationGroups.ClienteId"/>
+    <fullyQualifiedTypeName name="javax.validation.groups.Default"/>
+    <fullyQualifiedTypeName name="br.com.msr.logistica.domain.repository.EntregaRepository"/>
+    <fullyQualifiedTypeName name="javax.validation.constraints.NotBlank"/>
+    <fullyQualifiedTypeName name="br.com.msr.logistica.api.model.EntregaModel"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="javax.validation.constraints.NotNull"/>
+    <fullyQualifiedTypeName name="br.com.msr.logistica.api.model.form.EntregaForm"/>
 </qualifiedTypeNameHistroy>

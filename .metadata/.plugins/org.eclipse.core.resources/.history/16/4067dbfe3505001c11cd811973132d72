@@ -1,0 +1,5 @@
+package br.com.msr.logistica.domain.service;
+
+public class RegistroOcorrenciaService {
+
+}
