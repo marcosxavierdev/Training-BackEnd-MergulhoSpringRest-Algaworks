@@ -3,6 +3,8 @@
 Respositório com os arquivos do treinamento Mergulho Spring Rest, na plataforma AlgaWorks, com os objetivos de aprendizado, 
 prática e registros de anotações interessantes, obtidas durante o desenvolvimento do projeto.
 
+Projeto: Desenvolvimento de um aplicativo de logistica focado no back-end.
+ 
 OBS: Anotações na parte inferior do código, para posteriores consultas.
 
 TECNOLOGIAS PRATICADAS
